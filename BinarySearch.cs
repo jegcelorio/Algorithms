@@ -13,7 +13,7 @@ namespace BinarySearch
 
             //Binary Search: Looks for an array item by dividing the array in halves
             //Input: Sorted Array and a search Item
-            //Return: The position of the item found, 0 if not found. 
+            //Return: The position of the item found, -1 if not found. 
 
             int low = 0;
             int high = arr.Length - 1;
