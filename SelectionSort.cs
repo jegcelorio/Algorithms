@@ -39,7 +39,6 @@ namespace SelSort
             return arrSort;
         }
 
-
         // Created a PrintArray function to follow the DRY principle: Don't Repeat Yourself!
         static void PrintArray(int[] arr)
         {
@@ -49,7 +48,7 @@ namespace SelSort
 
         static void Main(string[] args)
         {
-            int[] arr = { 5, 4, 3, 9, 8, 6, 18 };
+            int[] arr = { 5, 4, 3, 9, 8, 6, 18 }; // Project Idea: Seed the Array with random values
             Console.WriteLine($"The unsorted array is: ");
             PrintArray(arr);
             Console.WriteLine($"\nThe sorted array is: ");
