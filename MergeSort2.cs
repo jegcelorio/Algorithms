@@ -9,7 +9,7 @@ namespace MergeSortB
         static void MergeSort(int[] arr)
         {
 
-            if (arr.Length < 2)
+            if (arr.Length == 1)
             {
                 return;
             }
