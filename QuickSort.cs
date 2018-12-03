@@ -27,10 +27,10 @@ namespace QuickSort
             {
                 if(arr[i] <= pivot)
                 {
-                    if(pIndex != i) {
+                    
                         Swap(ref arr[i], ref arr[pIndex]);
                         pIndex++;
-                    }
+                    
                 }
             }
 
